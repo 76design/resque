@@ -48,7 +48,7 @@ module Resque
     end
   end
 
-  extend Forwardable
+  #extend Forwardable
 
   def self.config=(options = {})
     @config = Config.new(options)
